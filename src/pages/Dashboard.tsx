@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import {
   Users, Activity, Heart, TrendingUp, TrendingDown, AlertTriangle,
   Calendar, Clock, ArrowRight, Zap, BarChart3, Bell, CheckCircle,
-  Stethoscope, Pill, ClipboardList,
+  Stethoscope, Pill, ClipboardList, Sparkles,
 } from 'lucide-react'
 import { AreaChart, Area, ResponsiveContainer, Tooltip, XAxis, BarChart, Bar } from 'recharts'
 import { useStore } from '../store/useStore'
@@ -161,7 +161,10 @@ export default function Dashboard() {
             <div>
               <p className="text-purple-300/80 text-xs font-bold uppercase tracking-widest mb-1.5">{greeting}</p>
               <h2 className="font-display font-bold text-2xl sm:text-3xl text-white leading-tight">
-                {user?.displayName || 'Prajwal Mulik'} 👋
+                <span className="inline-flex items-center gap-3">
+                  {user?.displayName || 'Prajwal Mulik'}
+                  <Sparkles size={22} className="text-purple-300 opacity-80" />
+                </span>
               </h2>
               <p className="text-slate-300/70 mt-2 text-sm max-w-md">
                 You have{' '}

@@ -197,7 +197,7 @@ export default function Login() {
             </div>
           </div>
 
-          {/* ★ DEMO ACCOUNT CARD — prominent at top ★ */}
+          {/* DEMO ACCOUNT CARD — prominent at top */}
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
