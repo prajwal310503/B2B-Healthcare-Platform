@@ -1,5 +1,5 @@
 {
-  "name": "medisync-healthcare-platform",
+  "name": "b2b-healthcare-platform",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "MediSync — B2B Healthcare Platform built with React, TypeScript, Firebase and Tailwind CSS",
+  "description": "B2B Healthcare Platform built with React, TypeScript, Firebase and Tailwind CSS",
   "dependencies": {
     "@tailwindcss/vite": "^4.2.4",
     "date-fns": "^4.1.0",

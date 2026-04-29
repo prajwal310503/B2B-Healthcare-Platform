@@ -119,7 +119,7 @@ export const useStore = create<AppState>()(
         }),
     }),
     {
-      name: 'medisync-store',
+      name: 'b2bhealthcare-store',
       partialize: (s) => ({
         user: s.user,
         isAuthenticated: s.isAuthenticated,

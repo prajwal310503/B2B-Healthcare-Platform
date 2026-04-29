@@ -9,7 +9,7 @@ import {
   Sparkles, ArrowRight, Copy, CheckCheck,
 } from 'lucide-react'
 
-const DEMO_EMAIL = 'demo@medisync.com'
+const DEMO_EMAIL = 'demo@b2bhealthcare.com'
 const DEMO_PASSWORD = 'Demo@1234'
 
 export default function Login() {
@@ -116,7 +116,7 @@ export default function Login() {
               <Heart size={20} className="text-white" />
             </div>
             <div>
-              <span className="font-display font-bold text-xl text-white tracking-tight">MediSync</span>
+              <span className="font-display font-bold text-xl text-white tracking-tight">B2B Healthcare</span>
               <p className="text-[10px] text-purple-300/70 uppercase tracking-widest leading-none">Healthcare Platform</p>
             </div>
           </motion.div>
@@ -192,8 +192,8 @@ export default function Login() {
               <Heart size={18} className="text-white" />
             </div>
             <div>
-              <span className="font-display font-bold text-lg text-gray-900">MediSync</span>
-              <p className="text-[10px] text-gray-400 uppercase tracking-widest leading-none">Healthcare Platform</p>
+              <span className="font-display font-bold text-lg text-gray-900">B2B Healthcare</span>
+              <p className="text-[10px] text-gray-400 uppercase tracking-widest leading-none">Platform</p>
             </div>
           </div>
 
@@ -302,7 +302,7 @@ export default function Login() {
                   {mode === 'login' ? 'Welcome back' : 'Create account'}
                 </h2>
                 <p className="text-gray-500 text-sm mb-5">
-                  {mode === 'login' ? 'Sign in to your healthcare dashboard' : 'Join the MediSync platform today'}
+                  {mode === 'login' ? 'Sign in to your healthcare dashboard' : 'Join the B2B Healthcare platform today'}
                 </p>
 
                 <form onSubmit={handleAuth} className="space-y-4">

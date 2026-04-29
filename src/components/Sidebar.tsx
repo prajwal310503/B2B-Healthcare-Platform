@@ -132,8 +132,8 @@ function SidebarInner({ sidebarOpen, initials, user, unreadCount, handleLogout }
               exit={{ opacity: 0, x: -8 }} transition={{ duration: 0.18 }}
               className="overflow-hidden whitespace-nowrap"
             >
-              <p className="font-display font-bold text-gray-900 text-[15px] leading-tight">MediSync</p>
-              <p className="text-[10px] text-gray-400 font-medium uppercase tracking-widest leading-none mt-0.5">Healthcare</p>
+              <p className="font-display font-bold text-gray-900 text-[15px] leading-tight">B2B Healthcare</p>
+              <p className="text-[10px] text-gray-400 font-medium uppercase tracking-widest leading-none mt-0.5">Platform</p>
             </motion.div>
           )}
         </AnimatePresence>

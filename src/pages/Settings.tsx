@@ -58,7 +58,7 @@ export default function Settings() {
           </div>
           <div className="flex-1 min-w-0">
             <h2 className="font-display font-bold text-xl text-gray-900">{user?.displayName || 'Dr. Sarah Mitchell'}</h2>
-            <p className="text-gray-500 text-sm">{user?.email || 'demo@medisync.com'}</p>
+            <p className="text-gray-500 text-sm">{user?.email || 'demo@b2bhealthcare.com'}</p>
             <div className="flex items-center gap-2 mt-2">
               <span className="text-[11px] px-2.5 py-1 rounded-full font-bold" style={{ background: '#ede9fe', color: '#6c47ff' }}>Administrator</span>
               <span className="text-[11px] px-2.5 py-1 rounded-full font-bold status-active">Active</span>
@@ -105,7 +105,7 @@ export default function Settings() {
         ))}
 
         <div className="text-center py-2">
-          <p className="text-gray-400 text-xs">MediSync Platform v2.4.1 · HIPAA Compliant · SOC2 Certified</p>
+          <p className="text-gray-400 text-xs">B2B Healthcare Platform v2.4.1 · HIPAA Compliant · SOC2 Certified</p>
         </div>
       </div>
     </div>

@@ -28,7 +28,7 @@ export default function Notifications() {
       if ('serviceWorker' in navigator) {
         try { await navigator.serviceWorker.register('/sw.js') } catch {}
       }
-      new Notification('MediSync Notifications Enabled', {
+      new Notification('B2B Healthcare Notifications Enabled', {
         body: 'You will now receive real-time clinical alerts.',
         icon: '/favicon.svg',
       })
